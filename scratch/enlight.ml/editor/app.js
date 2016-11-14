@@ -1,5 +1,5 @@
 document.getElementById ("note-title").innerHTML = localStorage["note-title"] || "";
-document.getElementById ("note-content").innerHTML = localStorage["note-content"];
+document.getElementById ("note-content").innerHTML = localStorage["note-content"] || "";
 
 setInterval (function () {
 	var title = document.getElementById ("note-title").innerHTML;
