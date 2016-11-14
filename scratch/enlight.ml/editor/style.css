@@ -1,0 +1,24 @@
+body {
+	color: #333;
+	max-wdth: 50em;
+	margin: 0 auto;
+}
+
+div:focus {
+	outline: none;
+}
+
+#note-title {
+	font-family: "Raleway", "Palatino", serif;
+	font-size: 48px;
+	font-weight: bold;
+
+	padding: 30px;
+}
+
+#note-content {
+	font-family: "Quicksand", "Open Sans", "Helvetica", "Candara", sans-serif;
+	font-size: 14.5px;
+
+	padding: 10px;
+}
