@@ -7,5 +7,5 @@ setInterval (function () {
 	localStorage["note-title"] = title;
 	localStorage["note-content"] = document.getElementById ("note-content").innerHTML;
 
-	document.getElementsByTagName ("title")[0].innerHTML = "LiveNotes: " + title;
+//	document.getElementsByTagName ("title")[0].innerHTML = "LiveNotes: " + title;
 }, 1000);
